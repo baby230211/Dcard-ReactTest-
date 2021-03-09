@@ -1,0 +1,36 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+.contain {
+  width: 960px;
+  background-color: #ccc;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  background-color: #fa0;
+  margin: 10px;
+  overflow: hidden;
+}
+.address {
+  padding: 5px;
+  text-align: center;
+}
+.text {
+  padding: 5px;
+}
+.Loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f0a;
+}
+.bottom {
+  opacity: 0;
+}
